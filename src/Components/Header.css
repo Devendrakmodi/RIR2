@@ -1,0 +1,29 @@
+.header-view {
+  clip-path: polygon(
+    calc(100% - 2rem) 0,
+    100% 2rem,
+    100% calc(100% - 3rem),
+    calc(100% - 7rem) calc(100% - 3rem),
+    calc(100% - 9rem) 100%,
+    2rem 100%,
+    0 calc(100% - 2rem),
+    0 2rem,
+    2rem 0rem,
+    0rem 0
+  );
+}
+
+.btn svg path {
+  stroke-dasharray: 0, 172.81, 243.971, 35.8053;
+  stroke-dashoffset: 905.171;
+  stroke: black;
+  stroke-width: 1px;
+  opacity: 0.8;
+  transition: all 0.3s linear;
+}
+
+.btn:hover svg path {
+  stroke-dashoffset: 452.586;
+  stroke: rgb(255, 0, 0);
+  stroke: rgb(255, 196, 0);
+}

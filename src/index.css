@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: PPFraktion;
+  src: url(./Fonts/PPFraktion.woff2);
+}
+
+@font-face {
+  font-family: Basel Grotesk;
+  src: url(./Fonts/BaselGrotesk-Regular.woff2);
+}
+
+@font-face {
+  font-family: Gustavo;
+  src: url(./Fonts/gustavo-medium-webfont..woff2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: url(./assets/Images/cursor.png), auto;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  /* background: rgb(69, 0, 0);
+  background: linear-gradient(
+    135deg,
+    rgba(69, 0, 0, 1) 0%,
+    rgba(53, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(53, 0, 0, 1) 80%,
+    rgba(69, 0, 0, 1) 100%
+  ); */
+}
+
+::selection {
+  background-color: #687c7b80;
+}
+
+@layer base {
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      225deg,
+      rgba(69, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 99%,
+      rgba(69, 0, 0, 1) 100%
+    );
+    border-radius: 20px;
+  }
+}
