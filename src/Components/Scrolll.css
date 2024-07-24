@@ -1,0 +1,5 @@
+.background img{
+    position: relative;
+    background-image: conic-gradient(#FF00FF,  #00FFFF, #00FF00, #BF00FF, #FF00FF);
+   border-radius: 10px;
+}

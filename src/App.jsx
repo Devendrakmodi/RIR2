@@ -13,6 +13,7 @@ const App = () => {
           <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#ffffff1a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff1a_1px,transparent_1px)] bg-[size:45px_45px]"></div>
         </div>
       </div>
+      <Loader />
       <Header />
       <Home />
     </>

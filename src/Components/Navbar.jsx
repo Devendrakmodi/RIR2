@@ -1,4 +1,3 @@
-
 import Logo from "../assets/Svg/Logo.svg";
 
 export default function Navbar() {
